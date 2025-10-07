@@ -1,4 +1,4 @@
-# 🎀 Funny Girl ChatBot
+# 🎀 Funny ChatBot
 
 A fun and flirty Python chatbot that talks in a realistic **girl voice** and saves chat logs in Termux.
 
