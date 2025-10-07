@@ -18,7 +18,7 @@ A fun and flirty Python chatbot that talks in a realistic **girl voice** and sav
 ```bash
 pkg update -y && pkg install python git mpv -y
 pip install gTTS colorama
-git clone https://github.com/Rizwanali444/funy_girl-bot-.git
+git clone https://github.com/ahmhabib01/chatbot
 cd funy_girl-bot-
 python funbot.py
 
