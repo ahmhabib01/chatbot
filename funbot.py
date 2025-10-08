@@ -15,7 +15,7 @@ def typeprint(text):
 # Voice function
 def speak(text):
     typeprint(Fore.MAGENTA + "👧 Bot: " + text)
-    tts = gTTS(text=text, lang='en', tld='co.in')  # Indian female voice
+    tts = gTTS(text=text, lang='en', tld='co.in')  #  female voice
     filename = f"voice_{random.randint(1000,9999)}.mp3"
     tts.save(filename)
     os.system(f"mpv {filename} > /dev/null 2>&1")
@@ -28,7 +28,7 @@ def save_chat(user, msg, reply):
 
 # Start chat
 os.system("clear")
-print(Fore.CYAN + "🤖 Funny Girl ChatBot by Rizwan Ali\n")
+print(Fore.CYAN + "🤖 Funny Girl ChatBot by Ahsan Habib\n")
 username = input(Fore.GREEN + "👤 Enter your name: ")
 
 print(Fore.YELLOW + f"\nHi {username}! ChatBot is ready. Type 'bye' to exit.\n")
@@ -40,7 +40,7 @@ while True:
     if "hello" in msg or "hi" in msg:
         reply = random.choice(["Hi jaanu! 😘", "Oye hello ji!", "Hii babu! 💕"])
     elif "how are you" in msg:
-        reply = "Main mast hoon, tumhare baare mein soch rahi thi 😜"
+        reply = "ami to theek achi, tomay niye vabchilam 😜"
     elif "your name" in msg:
         reply = "Main hoon Miss Funny Bot, ladkiyon wali awaaz ke sath 😇"
     elif "i love you" in msg:
